@@ -939,8 +939,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "e3352062-6fb7-4cf1-aab3-d073919bd8ca",
             "zIndex": 11,
+            "id": "e3352062-6fb7-4cf1-aab3-d073919bd8ca",
             "data": {
               "type": "tm.Text",
               "name": "Https\n2FA",
@@ -968,8 +968,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "55ecab32-4b5a-4f4b-a643-35f15344d5ef",
             "zIndex": 12,
+            "id": "55ecab32-4b5a-4f4b-a643-35f15344d5ef",
             "data": {
               "type": "tm.Actor",
               "name": "Deletion Records",
@@ -1002,8 +1002,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "9232b0fc-8c91-4b53-a5f2-34cdef997337",
             "zIndex": 13,
+            "id": "9232b0fc-8c91-4b53-a5f2-34cdef997337",
             "data": {
               "type": "tm.Actor",
               "name": "Payment\nInformation\nServer",
@@ -1036,8 +1036,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "79f6c0bf-a6c9-417f-8166-ad8656b22e42",
             "zIndex": 14,
+            "id": "79f6c0bf-a6c9-417f-8166-ad8656b22e42",
             "data": {
               "type": "tm.Actor",
               "name": "Personally\nIdentifiable\nInformation\nServer",
@@ -1065,8 +1065,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "4326b2e3-d701-45ee-a3b8-0e566612ac4d",
             "zIndex": 15,
+            "id": "4326b2e3-d701-45ee-a3b8-0e566612ac4d",
             "data": {
               "type": "tm.Text",
               "name": "Cold Storage",
@@ -1094,8 +1094,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "30057f6e-05d2-457a-90c2-5f14de00debb",
             "zIndex": 16,
+            "id": "30057f6e-05d2-457a-90c2-5f14de00debb",
             "data": {
               "type": "tm.Actor",
               "name": "Threat Actor",
@@ -1155,8 +1155,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "f303c921-7b6f-4320-8af1-838f9140237e",
             "zIndex": 17,
+            "id": "f303c921-7b6f-4320-8af1-838f9140237e",
             "data": {
               "type": "tm.Actor",
               "name": "Application\nServer",
@@ -1189,8 +1189,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "03bbebba-e471-4932-8aae-1e799920bce8",
             "zIndex": 18,
+            "id": "03bbebba-e471-4932-8aae-1e799920bce8",
             "data": {
               "type": "tm.Process",
               "name": "Submits\n2FA Code",
@@ -1226,6 +1226,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 19,
             "id": "65d83131-ae63-4502-9fb1-1246a7b59ff0",
             "data": {
               "type": "tm.Process",
@@ -1239,8 +1240,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 19
+            }
           },
           {
             "position": {
@@ -1258,8 +1258,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "d3ef5dc2-5694-43c6-afd8-9af247698e61",
             "zIndex": 20,
+            "id": "d3ef5dc2-5694-43c6-afd8-9af247698e61",
             "data": {
               "type": "tm.Text",
               "name": "Threat\n",
@@ -1282,8 +1282,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "931ad143-150a-4147-9e81-3d9d87f6834f",
             "zIndex": 21,
+            "id": "931ad143-150a-4147-9e81-3d9d87f6834f",
             "data": {
               "type": "tm.Text",
               "name": "Mitigation",
@@ -1311,8 +1311,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "be3b0ff1-5681-4684-bd1f-38fe8daf6e87",
             "zIndex": 22,
+            "id": "be3b0ff1-5681-4684-bd1f-38fe8daf6e87",
             "data": {
               "type": "tm.Process",
               "name": "Deletion\nRecords\nArchived",
@@ -1348,8 +1348,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "eb1a3f5c-1215-4dc3-a082-a3f76d0b0ea3",
             "zIndex": 23,
+            "id": "eb1a3f5c-1215-4dc3-a082-a3f76d0b0ea3",
             "data": {
               "type": "tm.Process",
               "name": "Obtains Internal\nCredentials and\nAttempts to deploy\nMalware",
@@ -1385,6 +1385,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 24,
             "id": "1c75642c-663d-45b4-87db-4eec564b9550",
             "data": {
               "type": "tm.Process",
@@ -1398,8 +1399,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 24
+            }
           },
           {
             "position": {
@@ -1417,8 +1417,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "a2a278c5-3a5b-41a0-9a04-13a2316c0520",
             "zIndex": 25,
+            "id": "a2a278c5-3a5b-41a0-9a04-13a2316c0520",
             "data": {
               "type": "tm.Text",
               "name": "Threatens",
@@ -1441,8 +1441,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "a01410e1-957b-47b6-a56f-e769f76de818",
             "zIndex": 26,
+            "id": "a01410e1-957b-47b6-a56f-e769f76de818",
             "data": {
               "type": "tm.Text",
               "name": "Mitigates",
@@ -1473,8 +1473,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "3d4eead3-dd61-45ed-b3ab-839f8f7133f1",
             "zIndex": 27,
+            "id": "3d4eead3-dd61-45ed-b3ab-839f8f7133f1",
             "data": {
               "type": "tm.Store",
               "name": "Database",
@@ -1506,8 +1506,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "acbfce3f-4127-424d-b58f-564ef5381544",
             "zIndex": 28,
+            "id": "acbfce3f-4127-424d-b58f-564ef5381544",
             "data": {
               "type": "tm.Text",
               "name": "Queries",
